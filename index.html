@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Give Hub - Blockchain Charity Simplified</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="keywords" name="crowdfund,gofundme,charity,social causes,stellar,blockchain">
+        <meta content="description" name="The Give Hub is a blockchain backed crowdfunding platform designed to make running campaigns and donating simple and easy to use.">
+
+        <!-- Favicon -->
+        <link href="/img/favicon.svg" type="image/svg+xml" rel="icon">
+
+        <!-- Google Font -->
+        <link href="/css/quicksand.css" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/fontawesome.min.css" rel="stylesheet">
+        <link href="/lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: #ddd; text-decoration: none; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        background-color: #232629;
+        color: #7a7c7d;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #7a7c7d;  padding-left: 4px; }
+    div.sourceCode
+      { color: #cfcfc2; background-color: #232629; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #cfcfc2; } /* Normal */
+    code span.al { color: #95da4c; background-color: #4d1f24; font-weight: bold; } /* Alert */
+    code span.an { color: #3f8058; } /* Annotation */
+    code span.at { color: #2980b9; } /* Attribute */
+    code span.bn { color: #f67400; } /* BaseN */
+    code span.bu { color: #7f8c8d; } /* BuiltIn */
+    code span.cf { color: #fdbc4b; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #3daee9; } /* Char */
+    code span.cn { color: #27aeae; font-weight: bold; } /* Constant */
+    code span.co { color: #7a7c7d; } /* Comment */
+    code span.cv { color: #7f8c8d; } /* CommentVar */
+    code span.do { color: #a43340; } /* Documentation */
+    code span.dt { color: #2980b9; } /* DataType */
+    code span.dv { color: #f67400; } /* DecVal */
+    code span.er { color: #da4453; text-decoration: underline; } /* Error */
+    code span.ex { color: #0099ff; font-weight: bold; } /* Extension */
+    code span.fl { color: #f67400; } /* Float */
+    code span.fu { color: #8e44ad; } /* Function */
+    code span.im { color: #27ae60; } /* Import */
+    code span.in { color: #c45b00; } /* Information */
+    code span.kw { color: #cfcfc2; font-weight: bold; } /* Keyword */
+    code span.op { color: #cfcfc2; } /* Operator */
+    code span.ot { color: #27ae60; } /* Other */
+    code span.pp { color: #27ae60; } /* Preprocessor */
+    code span.re { color: #2980b9; background-color: #153042; } /* RegionMarker */
+    code span.sc { color: #3daee9; } /* SpecialChar */
+    code span.ss { color: #da4453; } /* SpecialString */
+    code span.st { color: #f44f4f; } /* String */
+    code span.va { color: #27aeae; } /* Variable */
+    code span.vs { color: #da4453; } /* VerbatimString */
+    code span.wa { color: #da4453; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+        <!-- Template Stylesheet -->
+        <link href="/css/style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- Top Bar Start -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="top-bar-left">
+                            <div class="text">
+                                <i class="fa fa-phone-alt"></i>
+                                <p>(415) 300-0180</p>
+                            </div>
+                            <div class="text">
+                                <i class="fa fa-envelope"></i>
+                                <p>info@thegivehub.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="top-bar-right">
+                            <div class="social">
+                                <a href="https://x.com/thegivehub97501"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/people/The-Give-Hub/61568306136450/"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://linkedin.com/company/thegivehub"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="lang">
+                                <a onclick="app.switchLang('es'); return false;" href="/es/"><img class="lang-icon" src="/site/img/hola.svg"></a>
+                            </div>
+ 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">The Give Hub</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="about.html" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+                            <div class="dropdown-menu">
+                                <a href="service.html" class="dropdown-item">What We Do</a>
+                                <a href="team.html" class="dropdown-item">Meet The Team</a>
+                                <a href="event.html" class="dropdown-item">Events</a>
+                            </div>
+                        </div>
+                        <a href="blog.php" class="nav-item nav-link">Blog</a>
+                        <a href="causes.html" class="nav-item nav-link">Causes</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Participate</a>
+                            <div class="dropdown-menu">
+                                <a href="donate.html" class="dropdown-item">Donate Now</a>
+                                <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                                <a href="campaign.html" class="dropdown-item">Start a Campaign</a>
+                                <a href="register-cause.html" class="dropdown-item">Register Cause</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu">
+                                <a href="user-docs.html" class="dropdown-item">User Documentation</a>
+                                <a href="api.html" class="dropdown-item">API Documentation</a>
+                                <a href="faqs.html" class="dropdown-item">FAQ's</a>
+                                <a href="architecture.html" class="dropdown-item">Platform Architecture</a>
+                                <a href="pitchdeck.html" class="dropdown-item">Funding Pitch Deck</a>
+                            </div>
+                        </div>
+                         <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+       <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2> The Give Hub JavaScript SDK Documentation</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">Home</a>
+                        <a href=""> The Give Hub JavaScript SDK Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+<div class="container">
+    <div class="row align-items-center" style="justify-content: center;">
+        <div class="col-lg-7">
+            <div class="my-content"><h1 id="the-give-hub-javascript-sdk-documentation">The Give Hub
+JavaScript SDK Documentation</h1>
+<h2 id="overview">Overview</h2>
+<p>The GiveHub JavaScript SDK provides a simple and intuitive way to
+interact with The Give Hub API. It includes support for campaign
+management, donations, impact tracking, and real-time notifications.</p>
+<h2 id="installation">Installation</h2>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> install givehub-sdk</span></code></pre></div>
+<p>Or using yarn:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yarn</span> add givehub-sdk</span></code></pre></div>
+<h2 id="quick-start">Quick Start</h2>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { GiveHub } <span class="im">from</span> <span class="st">&#39;givehub-sdk&#39;</span><span class="op">;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">// Initialize the SDK</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> givehub <span class="op">=</span> <span class="kw">new</span> <span class="fu">GiveHub</span>({</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">baseUrl</span><span class="op">:</span> <span class="st">&#39;https://api.thegivehub.com&#39;</span><span class="op">,</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">version</span><span class="op">:</span> <span class="st">&#39;v1&#39;</span><span class="op">,</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">apiKey</span><span class="op">:</span> <span class="st">&#39;your-api-key&#39;</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">// Use the SDK</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="kw">async</span> <span class="kw">function</span> <span class="fu">init</span>() {</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span> {</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> campaigns <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">list</span>()<span class="op">;</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&#39;Active campaigns:&#39;</span><span class="op">,</span> campaigns)<span class="op">;</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">catch</span> (error) {</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">error</span>(<span class="st">&#39;Error:&#39;</span><span class="op">,</span> error)<span class="op">;</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="authentication">Authentication</h2>
+<h3 id="login">Login</h3>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> result <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">auth</span><span class="op">.</span><span class="fu">login</span>(email<span class="op">,</span> password)<span class="op">;</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">// SDK automatically handles token management</span></span></code></pre></div>
+<h3 id="register">Register</h3>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> userData <span class="op">=</span> {</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">email</span><span class="op">:</span> <span class="st">&#39;user@example.com&#39;</span><span class="op">,</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">password</span><span class="op">:</span> <span class="st">&#39;secure123&#39;</span><span class="op">,</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">firstName</span><span class="op">:</span> <span class="st">&#39;John&#39;</span><span class="op">,</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">lastName</span><span class="op">:</span> <span class="st">&#39;Doe&#39;</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">auth</span><span class="op">.</span><span class="fu">register</span>(userData)<span class="op">;</span></span></code></pre></div>
+<h3 id="verify-email">Verify Email</h3>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">auth</span><span class="op">.</span><span class="fu">verifyEmail</span>(email<span class="op">,</span> verificationCode)<span class="op">;</span></span></code></pre></div>
+<h2 id="campaign-management">Campaign Management</h2>
+<h3 id="create-campaign">Create Campaign</h3>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> campaign <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;Clean Water Project&#39;</span><span class="op">,</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">description</span><span class="op">:</span> <span class="st">&#39;Providing clean water access&#39;</span><span class="op">,</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">targetAmount</span><span class="op">:</span> <span class="dv">50000</span><span class="op">,</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">category</span><span class="op">:</span> <span class="st">&#39;water&#39;</span><span class="op">,</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">milestones</span><span class="op">:</span> [{</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>        <span class="dt">description</span><span class="op">:</span> <span class="st">&#39;Phase 1&#39;</span><span class="op">,</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>        <span class="dt">amount</span><span class="op">:</span> <span class="dv">10000</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    }]</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="get-campaign-details">Get Campaign Details</h3>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> campaign <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">get</span>(campaignId)<span class="op">;</span></span></code></pre></div>
+<h3 id="list-campaigns">List Campaigns</h3>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> campaigns <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">list</span>({</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">category</span><span class="op">:</span> <span class="st">&#39;water&#39;</span><span class="op">,</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">status</span><span class="op">:</span> <span class="st">&#39;active&#39;</span><span class="op">,</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">page</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">limit</span><span class="op">:</span> <span class="dv">10</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="update-campaign">Update Campaign</h3>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">update</span>(campaignId<span class="op">,</span> {</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;Updated Title&#39;</span><span class="op">,</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">description</span><span class="op">:</span> <span class="st">&#39;Updated description&#39;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="upload-media">Upload Media</h3>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">uploadMedia</span>(campaignId<span class="op">,</span> file)<span class="op">;</span></span></code></pre></div>
+<h2 id="donations">Donations</h2>
+<h3 id="create-donation">Create Donation</h3>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> donation <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">donations</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">campaignId</span><span class="op">:</span> <span class="st">&#39;campaign-id&#39;</span><span class="op">,</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">amount</span><span class="op">:</span> {</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">value</span><span class="op">:</span> <span class="dv">100</span><span class="op">,</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        <span class="dt">currency</span><span class="op">:</span> <span class="st">&#39;USD&#39;</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">type</span><span class="op">:</span> <span class="st">&#39;one-time&#39;</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="create-recurring-donation">Create Recurring Donation</h3>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> recurring <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">donations</span><span class="op">.</span><span class="fu">createRecurring</span>({</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">campaignId</span><span class="op">:</span> <span class="st">&#39;campaign-id&#39;</span><span class="op">,</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">amount</span><span class="op">:</span> {</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">value</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>        <span class="dt">currency</span><span class="op">:</span> <span class="st">&#39;USD&#39;</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">frequency</span><span class="op">:</span> <span class="st">&#39;monthly&#39;</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="get-donations">Get Donations</h3>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> donations <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">donations</span><span class="op">.</span><span class="fu">getDonations</span>({</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">campaignId</span><span class="op">:</span> <span class="st">&#39;campaign-id&#39;</span><span class="op">,</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">status</span><span class="op">:</span> <span class="st">&#39;completed&#39;</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="cancel-recurring-donation">Cancel Recurring Donation</h3>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">donations</span><span class="op">.</span><span class="fu">cancelRecurring</span>(subscriptionId)<span class="op">;</span></span></code></pre></div>
+<h2 id="impact-metrics">Impact Metrics</h2>
+<h3 id="create-metrics">Create Metrics</h3>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> metrics <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">impact</span><span class="op">.</span><span class="fu">createMetrics</span>(campaignId<span class="op">,</span> {</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">metrics</span><span class="op">:</span> [{</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>        <span class="dt">name</span><span class="op">:</span> <span class="st">&#39;People Helped&#39;</span><span class="op">,</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">value</span><span class="op">:</span> <span class="dv">500</span><span class="op">,</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>        <span class="dt">unit</span><span class="op">:</span> <span class="st">&#39;individuals&#39;</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    }]</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="update-metrics">Update Metrics</h3>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">impact</span><span class="op">.</span><span class="fu">updateMetrics</span>(metricId<span class="op">,</span> {</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="dv">600</span><span class="op">,</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">verificationMethod</span><span class="op">:</span> <span class="st">&#39;survey&#39;</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="get-metrics">Get Metrics</h3>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> impact <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">impact</span><span class="op">.</span><span class="fu">getMetrics</span>(campaignId<span class="op">,</span> {</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">from</span><span class="op">:</span> <span class="st">&#39;2024-01-01&#39;</span><span class="op">,</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">to</span><span class="op">:</span> <span class="st">&#39;2024-12-31&#39;</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h2 id="campaign-updates">Campaign Updates</h2>
+<h3 id="create-update">Create Update</h3>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> update <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">updates</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">campaignId</span><span class="op">:</span> <span class="st">&#39;campaign-id&#39;</span><span class="op">,</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;Progress Update&#39;</span><span class="op">,</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">content</span><span class="op">:</span> <span class="st">&#39;Project milestone achieved&#39;</span><span class="op">,</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">type</span><span class="op">:</span> <span class="st">&#39;milestone&#39;</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="get-updates">Get Updates</h3>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> updates <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">updates</span><span class="op">.</span><span class="fu">getUpdates</span>({</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">campaignId</span><span class="op">:</span> <span class="st">&#39;campaign-id&#39;</span><span class="op">,</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">type</span><span class="op">:</span> <span class="st">&#39;milestone&#39;</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h3 id="upload-update-media">Upload Update Media</h3>
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="cf">await</span> givehub<span class="op">.</span><span class="at">updates</span><span class="op">.</span><span class="fu">uploadMedia</span>(updateId<span class="op">,</span> file)<span class="op">;</span></span></code></pre></div>
+<h2 id="real-time-notifications">Real-time Notifications</h2>
+<h3 id="connect-to-notifications">Connect to Notifications</h3>
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> notifications <span class="op">=</span> givehub<span class="op">.</span><span class="at">notifications</span><span class="op">;</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co">// Connect</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>notifications<span class="op">.</span><span class="fu">connect</span>()<span class="op">;</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="co">// Listen for events</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>notifications<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;donation_received&#39;</span><span class="op">,</span> (notification) <span class="kw">=&gt;</span> {</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&#39;New donation:&#39;</span><span class="op">,</span> notification)<span class="op">;</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>notifications<span class="op">.</span><span class="fu">on</span>(<span class="st">&#39;milestone_completed&#39;</span><span class="op">,</span> (notification) <span class="kw">=&gt;</span> {</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&#39;Milestone completed:&#39;</span><span class="op">,</span> notification)<span class="op">;</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="co">// Disconnect when done</span></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>notifications<span class="op">.</span><span class="fu">disconnect</span>()<span class="op">;</span></span></code></pre></div>
+<h2 id="error-handling">Error Handling</h2>
+<p>The SDK throws <code>GiveHubException</code> for API errors:</p>
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span> {</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">create</span>(campaignData)<span class="op">;</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>} <span class="cf">catch</span> (error) {</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (error<span class="op">.</span><span class="at">status</span> <span class="op">===</span> <span class="dv">401</span>) {</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Handle authentication error</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (error<span class="op">.</span><span class="at">status</span> <span class="op">===</span> <span class="dv">400</span>) {</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Handle validation error</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Handle other errors</span></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="types">Types</h2>
+<h3 id="campaign">Campaign</h3>
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="kw">interface</span> Campaign {</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    id<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    title<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    description<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    targetAmount<span class="op">:</span> <span class="dt">number</span><span class="op">;</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    currentAmount<span class="op">:</span> <span class="dt">number</span><span class="op">;</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    category<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    status<span class="op">:</span> <span class="st">&#39;draft&#39;</span> <span class="op">|</span> <span class="st">&#39;active&#39;</span> <span class="op">|</span> <span class="st">&#39;completed&#39;</span> <span class="op">|</span> <span class="st">&#39;suspended&#39;</span><span class="op">;</span></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    milestones<span class="op">:</span> Milestone[]<span class="op">;</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>    created<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>    updated<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h3 id="donation">Donation</h3>
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="kw">interface</span> Donation {</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    id<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    campaignId<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    amount<span class="op">:</span> {</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>        value<span class="op">:</span> <span class="dt">number</span><span class="op">;</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>        currency<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    }<span class="op">;</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    type<span class="op">:</span> <span class="st">&#39;one-time&#39;</span> <span class="op">|</span> <span class="st">&#39;recurring&#39;</span><span class="op">;</span></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    status<span class="op">:</span> <span class="st">&#39;pending&#39;</span> <span class="op">|</span> <span class="st">&#39;completed&#39;</span> <span class="op">|</span> <span class="st">&#39;failed&#39;</span><span class="op">;</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    transaction<span class="op">:</span> {</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>        id<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>        status<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>    }<span class="op">;</span></span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>    created<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h3 id="impact-metric">Impact Metric</h3>
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode typescript"><code class="sourceCode typescript"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">interface</span> ImpactMetric {</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>    name<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>    value<span class="op">:</span> <span class="dt">number</span><span class="op">;</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>    unit<span class="op">:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>    verificationMethod<span class="op">?:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>    verifiedAt<span class="op">?:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>    verifiedBy<span class="op">?:</span> <span class="dt">string</span><span class="op">;</span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="configuration-options">Configuration Options</h2>
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">baseUrl</span><span class="op">:</span> string<span class="op">;</span>            <span class="co">// API base URL</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">version</span><span class="op">:</span> string<span class="op">;</span>            <span class="co">// API version</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">apiKey</span><span class="op">:</span> string<span class="op">;</span>            <span class="co">// Your API key</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">timeout</span><span class="op">:</span> number<span class="op">;</span>           <span class="co">// Request timeout (ms)</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">retryAttempts</span><span class="op">:</span> number<span class="op">;</span>     <span class="co">// Number of retry attempts</span></span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">debug</span><span class="op">:</span> boolean<span class="op">;</span>            <span class="co">// Enable debug logging</span></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="best-practices">Best Practices</h2>
+<ol type="1">
+<li><p><strong>Token Management</strong>: The SDK automatically handles
+token refresh. Store tokens securely in your application.</p></li>
+<li><p><strong>Error Handling</strong>: Always wrap SDK calls in
+try-catch blocks for proper error handling.</p></li>
+<li><p><strong>Resource Cleanup</strong>: Disconnect from notifications
+when they’re no longer needed.</p></li>
+<li><p><strong>Rate Limiting</strong>: The SDK implements automatic rate
+limiting. Configure retry attempts based on your needs.</p></li>
+<li><p><strong>File Uploads</strong>: Use appropriate file types and
+sizes for media uploads.</p></li>
+</ol>
+<h2 id="examples">Examples</h2>
+<h3 id="complete-campaign-flow">Complete Campaign Flow</h3>
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">async</span> <span class="kw">function</span> <span class="fu">manageCampaign</span>() {</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span> {</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Create campaign</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> campaign <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>            <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;Water Project&#39;</span><span class="op">,</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>            <span class="dt">targetAmount</span><span class="op">:</span> <span class="dv">50000</span></span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Upload media</span></span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">await</span> givehub<span class="op">.</span><span class="at">campaigns</span><span class="op">.</span><span class="fu">uploadMedia</span>(</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>            campaign<span class="op">.</span><span class="at">id</span><span class="op">,</span></span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>            <span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">&#39;input[type=&quot;file&quot;]&#39;</span>)<span class="op">.</span><span class="at">files</span>[<span class="dv">0</span>]</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>        )<span class="op">;</span></span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Track impact</span></span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">await</span> givehub<span class="op">.</span><span class="at">impact</span><span class="op">.</span><span class="fu">createMetrics</span>(campaign<span class="op">.</span><span class="at">id</span><span class="op">,</span> {</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>            <span class="dt">metrics</span><span class="op">:</span> [{</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>                <span class="dt">name</span><span class="op">:</span> <span class="st">&#39;Wells Built&#39;</span><span class="op">,</span></span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>                <span class="dt">value</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>                <span class="dt">unit</span><span class="op">:</span> <span class="st">&#39;wells&#39;</span></span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a>            }]</span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Post update</span></span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">await</span> givehub<span class="op">.</span><span class="at">updates</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>            <span class="dt">campaignId</span><span class="op">:</span> campaign<span class="op">.</span><span class="at">id</span><span class="op">,</span></span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>            <span class="dt">title</span><span class="op">:</span> <span class="st">&#39;First Well Complete&#39;</span><span class="op">,</span></span>
+<span id="cb28-28"><a href="#cb28-28" aria-hidden="true" tabindex="-1"></a>            <span class="dt">content</span><span class="op">:</span> <span class="st">&#39;We&#39;</span>ve completed the first well<span class="op">!</span><span class="st">&#39;</span></span>
+<span id="cb28-29"><a href="#cb28-29" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb28-30"><a href="#cb28-30" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">catch</span> (error) {</span>
+<span id="cb28-31"><a href="#cb28-31" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">error</span>(<span class="st">&#39;Campaign management failed:&#39;</span><span class="op">,</span> error)<span class="op">;</span></span>
+<span id="cb28-32"><a href="#cb28-32" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb28-33"><a href="#cb28-33" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h3 id="handling-donations">Handling Donations</h3>
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="kw">async</span> <span class="kw">function</span> <span class="fu">processDonation</span>(campaignId<span class="op">,</span> amount) {</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span> {</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Create donation</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> donation <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">donations</span><span class="op">.</span><span class="fu">create</span>({</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>            campaignId<span class="op">,</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>            <span class="dt">amount</span><span class="op">:</span> {</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>                <span class="dt">value</span><span class="op">:</span> amount<span class="op">,</span></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>                <span class="dt">currency</span><span class="op">:</span> <span class="st">&#39;USD&#39;</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Track transaction</span></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> transaction <span class="op">=</span> <span class="cf">await</span> givehub<span class="op">.</span><span class="at">donations</span><span class="op">.</span><span class="fu">getTransaction</span>(</span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>            donation<span class="op">.</span><span class="at">transaction</span><span class="op">.</span><span class="at">id</span></span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>        )<span class="op">;</span></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Show confirmation</span></span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (transaction<span class="op">.</span><span class="at">status</span> <span class="op">===</span> <span class="st">&#39;completed&#39;</span>) {</span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a>            <span class="fu">showSuccess</span>(<span class="st">&#39;Donation successful!&#39;</span>)<span class="op">;</span></span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">catch</span> (error) {</span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a>        <span class="bu">console</span><span class="op">.</span><span class="fu">error</span>(<span class="st">&#39;Donation failed:&#39;</span><span class="op">,</span> error)<span class="op">;</span></span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<h2 id="debugging">Debugging</h2>
+<p>Enable debug mode to see detailed logs:</p>
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> givehub <span class="op">=</span> <span class="kw">new</span> <span class="fu">GiveHub</span>({</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">debug</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">// other config...</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code></pre></div>
+<h2 id="support">Support</h2>
+<ul>
+<li>Documentation: <a
+href="https://docs.thegivehub.com">https://docs.thegivehub.com</a></li>
+<li>GitHub Issues: <a
+href="https://github.com/thegivehub/sdk-js/issues">https://github.com/thegivehub/sdk-js/issues</a></li>
+<li>Email: support@thegivehub.com</li>
+</ul>
+            </div>
+        </div>
+    </div>
+</div>        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-contact">
+                            <h2>Our Head Office</h2>
+                            <p><i class="fa fa-map-marker-alt"></i>621 Holloway Ave, <br>San Francisco CA, USA</p>
+                            <p><i class="fa fa-phone-alt"></i>(415) 300-0180</p>
+                            <p><i class="fa fa-envelope"></i>info@thegivehub.com</p>
+                            <div class="footer-social">
+                                <a class="btn btn-custom" href="https://twitter.com/@therealgivehub"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-custom" href="https://www.facebook.com/people/The-Give-Hub/61568306136450/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-custom" href="https://youtube.com/@thegivehub"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-custom" href="https://linkedin.com/company/thegivehub"><i class="fab fa-linkedin-in"></i></a>
+                                <a onclick="app.switchLang('es'); return false;" href="/es/"><img class="lang-icon" src="/site/img/hola.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link">
+                            <h2>Popular Links</h2>
+                            <a href="about.html">About Us</a>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="causes.html">Popular Causes</a>
+                            <a href="event.html">Upcoming Events</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link">
+                            <h2>Useful Links</h2>
+                            <a href="legal/tos.html">Terms of use</a>
+                            <a href="legal/privacy.html">Privacy policy</a>
+                            <a href="legal/cookies.html">Cookies</a>
+                            <a href="help.html">Help</a>
+                            <a href="faq.html">FAQs</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-newsletter">
+                            <h2>Newsletter</h2>
+                            <form>
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn btn-custom">Submit</button>
+                                <label>Don't worry, we don't spam!</label>
+                            </form>
+                        </div>
+                        <div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                   </div>
+                    <div class="col-md-6">
+                        <p>&copy; <a href="#">The Give Hub</a>, All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="/js/jquery-3.4.1.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/lib/easing/easing.min.js"></script>
+        <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="/lib/waypoints/waypoints.min.js"></script>
+        <script src="/lib/counterup/counterup.min.js"></script>
+        <script src="/lib/parallax/parallax.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="/mail/jqBootstrapValidation.min.js"></script>
+        <script src="/mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="/js/main.js"></script>
+    </body>
+</html>
